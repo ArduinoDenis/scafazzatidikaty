@@ -1,0 +1,151 @@
+/* reset css */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* corpo del sito */
+body{
+    margin: 0%;
+    text-transform: uppercase;
+}
+/* setto il tag header - modifiche anche alla scritta logo */
+header{
+    background-color: #08b863;
+    color: #e5ff00;
+    padding: 3px;
+}
+/* setto due tipi di tag */
+header h2, header span{
+    display: inline-block;
+}
+/* setto la classe logo */
+.logo{
+    font-size: 200%;
+}
+/* setto la classe targhetta */
+.targhetta{
+    float: right;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 15px;
+    font-size: 121%;
+}
+/* zona dei pulsanti con link */
+nav{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    position: sticky;
+}
+/* setto il tag nav,ul */
+nav ul{
+    padding: 0%;
+    margin: 0%;
+}
+/* setto il tag nav,ul,li */
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+/* setto il tag nav,ul,li,hover - passaggio del mouse */
+nav ul li:hover{
+    background-color: #3f00ac;
+}
+/* setto il tag nav,ul,li,a */
+nav ul li a{
+    color: #e5ff00;
+    text-decoration: none;
+}
+/* setto la classe home */
+.home{
+    background-image: url(../images/sfondo-attuale.png);
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    width: auto;
+    height: auto;
+}
+/* setto la classe home e setto il tag h1 */
+.home h1{
+    text-align: center;
+    color: white;
+}
+/* setto la classe home e setto il tag h3 */
+.home h3{
+    text-align: center;
+    color: white;
+}
+/* setto la classe ricarica_pagina,hover - passaggio del mouse */
+.ricarica_pagina:hover{
+    background-color: #b31313;
+}
+/* setto la id twitch */
+#twitch{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 15px;
+}
+/* setto la classe twitch,hover - passaggio del mouse */
+.twitch:hover{
+    background-color: blueviolet;
+}
+/* setto la id sticker */
+#sticker{
+    text-align: center;
+    background-color: grey;
+    padding: 15px;
+}
+/* setto la id sticker e i tag P e A */
+#sticker p a{
+    text-decoration: none;
+}
+/* setto la classe sticker_telegram,hover - passaggio del mouse */
+.sticker_telegram:hover{
+    background-color: grey;
+}
+/* setto la classe ritratti,hover - passaggio del mouse */
+.ritratti:hover{
+    background-color: #daa520;
+}
+/* setto la id ritratti */
+#ritratti{
+    text-align: center;
+    background-color:#daa520;
+    padding: 15px;
+}
+/* setto il tag ritratti */
+.divisorio{
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.64)
+}
+/* setto la id social */
+#social{
+    text-align: center;
+    background-color: #214b61;
+    padding: 15px;
+    color: white;
+}
+/* setto la classe social,hover - passaggio del mouse */
+.social:hover{
+    text-align: center;
+    background-color: #214b61;
+    padding: 15px;
+    color: white;
+}
+/* setto la classe author */
+.author{
+    text-align: center;
+    background-color: #504f4fa3;
+    color: white;
+}
+/* setto la classe copyright */
+.copyright{
+    color: red;
+    background-color: #171616;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}

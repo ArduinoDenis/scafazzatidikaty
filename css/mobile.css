@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    /* setto il tag header - modifiche anche alla scritta logo */
+    header{
+        text-align: center;
+    }
+    /* setto la classe targhetta */
+    .targhetta{
+        float: none;
+        margin: 10px;
+    }
+    /* setto la classe logo */
+    .logo{
+        max-width: 45%;
+    }
+    /* setto il tag nav */
+    nav{
+        padding: 5px;
+    }
+    /* setto il tag nav,ul */
+    nav ul{
+        margin-top: 10px;
+    }
+    /* setto il tag nav,ul,li */
+    nav ul li{
+        display: block;
+    }
+    /* setto la classe author */
+    .author{
+        text-align: center;
+    }
+}
