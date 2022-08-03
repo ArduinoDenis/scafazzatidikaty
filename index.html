@@ -9,14 +9,9 @@
     <meta name="author" content="katia brivio">
     <meta name="description" content="sito web di katia brivio">
     <meta name="keyword" content="italiano, sitoweb, katia_brivio_official, katia, brivio">
-    <!-- Google tag (gtag.js) -->
+    <!-- Google js -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VG0QVVXHH"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-6VG0QVVXHH');
-    </script>
+    <script src="./js/script_google.js"></script>
     <!-- Css -->
     <link rel="stylesheet" href="./css/computer.css" type="text/css">
     <link rel="stylesheet" href="./css/mobile.css" type="text/css">
@@ -41,6 +36,7 @@
         <ul id="menu">
             <li class="ricarica_pagina"><a href="index.html">Home - ricarica pagina</a></li>
             <li class="twitch"><a href="#twitch">Twitch</a></li>
+            <li class="YouTube"><a href="#YouTube">YouTube</a></li>
             <li class="sticker_telegram"><a href="#sticker">Stickers</a></li>
             <li class="ritratti"><a href="#ritratti">Ritratti</a></li>
             <li class="social"><a href="#social">Social</a></li>
@@ -48,7 +44,7 @@
     </nav>
    <!-- Home -->
    <div class="home">
-    <h1>benvenuti nel sito web del team Scafazzati di Katia</h1>
+    <h1>benvenuti nel sito web degli Scafazzati di Katia</h1>
     <h3>questo sito web e&grave; un regalo per Katia</h3>
     <br>
     </div>
@@ -67,6 +63,16 @@
         <script type="text/javascript">
         new Twitch.Player("twitch-embed", {channel: "katiabrivio"});</script>
     </div>
+    <div class="divisorio">
+
+    </div>
+    <!-- Playlist ultimi 7 video -->
+    <div class="playlist-yt" id="YouTube">
+        <p>nuovo video ogni venerdì alle 14:30 sul canale youtube</p>
+        <h3>gli ultimi 7 video li puoi vedere direttamente qui</h3>
+        <iframe id="playlist_link" src="https://www.youtube.com/embed/videoseries?list=PL93SyFcogbBCEeE8-SeFZsZjYZJ_YjcnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <div class="divisorio">
 
     </div>
@@ -95,7 +101,7 @@
     </div>
     <!-- zona Social -->
     <div id="social">
-        <h2>Seguimi nei Social</h2>
+        <h2>social di Katy</h2>
         <a href="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g" target="_blank"><img src="./images/social/YouTube.png" class="youtube" align='center'></a>
         <a href="https://www.facebook.com/katia.brivio" target="_blank"><img src="./images/social/facebook.png" class="facebook" align='center'></a>
         <a href="https://www.instagram.com/katia_brivio_official/" target="_blank"><img src="./images/social/instagram.png" class="instagram" align='center'></a>
@@ -103,8 +109,8 @@
         <a href="https://t.me/+Vk1mSaU3AsRjMmU0" target="_blank"><img src="./images/social/telegram.png" class="telegram" align='center'></a>
         <a href="https://www.twitch.tv/katiabrivio" target="_blank"><img src="./images/social/twitch.png" class="Twitch" align='center'></a>
     </div>
-    <!-- pagina finale -->
-<div class="copyright">&copy; 2022 Scafazzati di Katy, Tutti i diritti riservati</div>
-<div class="author">Realizzato con ❤️❤️❤️ by Arduino Denis</div>
+    <!-- schermata finale -->
+<div class="copyright">Copyright - 2022 Gli Scafazzati di Katy. Tutti i diritti riservati</div>
+<div class="author">Realizzato con ❤️❤️ by Arduino Denis</div>
 </body>
 </html>

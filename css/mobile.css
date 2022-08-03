@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     /* setto il tag header - modifiche anche alla scritta logo */
     header{
         text-align: center;
@@ -24,8 +24,14 @@
     nav ul li{
         display: block;
     }
+    /* setto id playlist_link */
+    #playlist_link{
+        width: 338px;
+        height: 250px;
+    }
     /* setto la classe author */
     .author{
         text-align: center;
     }
+
 }

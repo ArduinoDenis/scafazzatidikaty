@@ -77,22 +77,22 @@ nav ul li a{
 }
 /* setto la classe ricarica_pagina,hover - passaggio del mouse */
 .ricarica_pagina:hover{
-    background-color: #b31313;
+    background-color: #086f3e;
 }
 /* setto la id twitch */
 #twitch{
     text-align: center;
-    background-color: blueviolet;
+    background-color: #8a2be2;
     padding: 15px;
 }
 /* setto la classe twitch,hover - passaggio del mouse */
 .twitch:hover{
-    background-color: blueviolet;
+    background-color: #8a2be2;
 }
 /* setto la id sticker */
 #sticker{
     text-align: center;
-    background-color: grey;
+    background-color: #808080;
     padding: 15px;
 }
 /* setto la id sticker e i tag P e A */
@@ -101,11 +101,27 @@ nav ul li a{
 }
 /* setto la classe sticker_telegram,hover - passaggio del mouse */
 .sticker_telegram:hover{
-    background-color: grey;
+    background-color: #808080;
 }
 /* setto la classe ritratti,hover - passaggio del mouse */
 .ritratti:hover{
     background-color: #daa520;
+}
+/* setto la classe playlist-yt */
+.playlist-yt{
+    text-align: center;
+    background-color: #d32322;
+    padding: 15px;
+    color: #ffff;
+}
+/* setto id playlist_link */
+#playlist_link{
+    width: 784px;
+    height: 440px;
+}
+/* setto la classe YouTube,hover - passaggio del mouse */
+.YouTube:hover{
+    background-color: #d32322;
 }
 /* setto la id ritratti */
 #ritratti{
