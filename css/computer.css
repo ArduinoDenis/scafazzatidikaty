@@ -98,6 +98,7 @@ nav ul li a{
 /* setto la id sticker e i tag P e A */
 #sticker p a{
     text-decoration: none;
+    color: #ffffff;
 }
 /* setto la classe sticker_telegram,hover - passaggio del mouse */
 .sticker_telegram:hover{
