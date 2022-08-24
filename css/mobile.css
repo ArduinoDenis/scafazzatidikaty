@@ -33,5 +33,14 @@
     .author{
         text-align: center;
     }
-
+    /* setto la classe play 
+    .play{
+        height: 378px;
+        width: 336px;
+    }
+    /* setto la classe chat 
+    .chat{
+        height: 500px;
+        width: 332px;
+    }*/
 }

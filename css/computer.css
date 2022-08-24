@@ -79,7 +79,7 @@ nav ul li a{
 .ricarica_pagina:hover{
     background-color: #086f3e;
 }
-/* setto la id twitch */
+/* setto l'id twitch */
 #twitch{
     text-align: center;
     background-color: #8a2be2;
@@ -89,13 +89,24 @@ nav ul li a{
 .twitch:hover{
     background-color: #8a2be2;
 }
-/* setto la id sticker */
+/* setto la classe play 
+.play{
+    height: 500px;
+    width: 620px;
+}
+/* setto la classe chat 
+.chat{
+    height: 500px;
+    width: 350px;
+}
+*/
+/* setto l'id sticker */
 #sticker{
     text-align: center;
     background-color: #808080;
     padding: 15px;
 }
-/* setto la id sticker e i tag P e A */
+/* setto l'id sticker e i tag P e A */
 #sticker p a{
     text-decoration: none;
     color: #ffffff;
@@ -124,7 +135,7 @@ nav ul li a{
 .YouTube:hover{
     background-color: #d32322;
 }
-/* setto la id ritratti */
+/* setto l'id ritratti */
 #ritratti{
     text-align: center;
     background-color:#daa520;
@@ -137,7 +148,7 @@ nav ul li a{
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.64)
 }
-/* setto la id social */
+/* setto l'id social */
 #social{
     text-align: center;
     background-color: #214b61;
