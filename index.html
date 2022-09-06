@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-
 <!-- AUTHOR DEL SITO: Arduino Denis -->
-
+<!DOCTYPE html>
 <html lang="it">
 
 <head>
@@ -57,9 +55,7 @@
         <h2 class="logo">Gli Scafazzati di Katy</h2>
 
         <span class="targhetta">
-
             <b>questo Sito è dedicato a chi segue Katia Brivio</b>
-
         </span>
 
     </header>
@@ -130,10 +126,20 @@
 
     <div class="playlist-yt" id="YouTube">
 
-        <p>nuovo video ogni venerdì alle 14:30 sul canale youtube</p>
-
-        <h3>gli ultimi 7 video li puoi vedere direttamente qui</h3>
-
+        <p>nuovo video ogni venerdì alle 14:30 sul canale youtube, gli ultimi 7 video li puoi vedere direttamente qui</p>
+        <p>se stai cercando un video usa la ricerca che trovi qui</p>
+        <form id="frm1"action="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g/search?query=twitch">
+            <input type="text" name="query"
+            id="query" value="">
+          
+          <input type="submit" value="Ricerca Video">
+          </form>
+          <script>
+          function myFunction(){
+          var x =document.getElementById("frm1")
+          }
+          </script>
+          <br>
         <iframe id="playlist_link" src="https://www.youtube.com/embed/videoseries?list=PL93SyFcogbBCEeE8-SeFZsZjYZJ_YjcnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
@@ -200,17 +206,19 @@
 
         <h2>social di Katy</h2>
 
-        <a href="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g" target="_blank"><img src="./images/social/YouTube.png" class="youtube" align='center' alt="youtube"></a>
+        <a href="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g" target="_blank"><img src="./images/social/YouTube.png" class="youtube" align='center' alt="youtube" title="youtube"></a>
 
-        <a href="https://www.facebook.com/katia.brivio" target="_blank"><img src="./images/social/facebook.png" class="facebook" align='center' alt="facebook"></a>
+        <a href="https://www.facebook.com/katia.brivio" target="_blank"><img src="./images/social/facebook.png" class="facebook" align='center' alt="facebook" title="facebook"></a>
 
-        <a href="https://www.instagram.com/katia_brivio_official/" target="_blank"><img src="./images/social/instagram.png" class="instagram" align='center' alt="instagram"></a>
+        <a href="https://www.instagram.com/katia_brivio_official/" target="_blank"><img src="./images/social/instagram.png" class="instagram" align='center' alt="instagram" title="instagram"></a>
 
-        <a href="https://www.tiktok.com/@katiabrivio" target="_blank"><img src="./images/social/tiktok.png" class="tiktok" align='center' alt="tiktok"></a>
+        <a href="https://www.tiktok.com/@katiabrivio" target="_blank"><img src="./images/social/tiktok.png" class="tiktok" align='center' alt="tiktok" title="tiktok"></a>
 
-        <a href="https://t.me/+Vk1mSaU3AsRjMmU0" target="_blank"><img src="./images/social/telegram.png" class="telegram" align='center' alt="gruppo telegram"></a>
+        <a href="https://t.me/+Vk1mSaU3AsRjMmU0" target="_blank"><img src="./images/social/telegram.png" class="telegram" align='center' alt="gruppo telegram" title="gruppo telegram"></a>
 
-        <a href="https://www.twitch.tv/katiabrivio" target="_blank"><img src="./images/social/twitch.png" class="Twitch" align='center' alt="twitch"></a>
+        <a href="https://www.twitch.tv/katiabrivio" target="_blank"><img src="./images/social/twitch.png" class="Twitch" align='center' alt="twitch" title="twitch"></a>
+        
+        <a href="https://www.amazon.it/hz/wishlist/ls/3HGJCQ5NEUYXZ" target="_blank"><img src="./images/social/amazon.png" class="amazon" align='center' alt="lista desideri amazon" title="lista dei desideri di amazon"></a>
 
     </div>
 
