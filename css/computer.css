@@ -32,7 +32,7 @@ header h2, header span{
 /* zona dei pulsanti con link */
 nav{
     background-color: #000000;
-    color: white;
+    color: #ffffff;
     text-align: center;
     position: sticky;
 }
@@ -68,12 +68,12 @@ nav ul li a{
 /* setto la classe home e setto il tag h1 */
 .home h1{
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 /* setto la classe home e setto il tag h3 */
 .home h3{
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 /* setto la classe ricarica_pagina,hover - passaggio del mouse */
 .ricarica_pagina:hover{
@@ -89,17 +89,6 @@ nav ul li a{
 .twitch:hover{
     background-color: #8a2be2;
 }
-/* setto la classe play 
-.play{
-    height: 500px;
-    width: 620px;
-}
-/* setto la classe chat 
-.chat{
-    height: 500px;
-    width: 350px;
-}
-*/
 /* setto l'id sticker */
 #sticker{
     text-align: center;
@@ -141,6 +130,11 @@ nav ul li a{
     background-color:#daa520;
     padding: 15px;
 }
+/* setto la classe contatta */
+.contatta{
+    color: #ffffff;
+    text-decoration: none;
+}
 /* setto la classe divisorio */
 .divisorio{
     height: 2px;
@@ -153,24 +147,24 @@ nav ul li a{
     text-align: center;
     background-color: #214b61;
     padding: 15px;
-    color: white;
+    color: #ffffff;
 }
 /* setto la classe social,hover - passaggio del mouse */
 .social:hover{
     text-align: center;
     background-color: #214b61;
     padding: 15px;
-    color: white;
+    color: #ffffff;
 }
 /* setto la classe author */
 .author{
     text-align: center;
     background-color: #504f4fa3;
-    color: white;
+    color: #ffffff;
 }
 /* setto la classe copyright */
 .copyright{
-    color: red;
+    color: #ff0000;
     background-color: #171616;
     padding: 15px;
     margin: 0;

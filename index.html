@@ -1,233 +1,127 @@
 <!-- AUTHOR DEL SITO: Arduino Denis -->
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Gli Scafazzati di Katia</title>
-
     <meta name="author" content="katia brivio">
-
     <meta name="description" content="sito web di katia brivio">
-
     <meta name="keyword" content="italiano, sitoweb, katia_brivio_official, katia, brivio">
-
     <!-- Google js -->
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VG0QVVXHH"></script>
-
     <script type="text/javascript" src="./js/script_google.js"></script>
-
     <!-- Css -->
-
     <link rel="stylesheet" href="./css/computer.css" type="text/css">
-
     <link rel="stylesheet" href="./css/mobile.css" type="text/css">
-
     <!-- Favicon -->
-
     <link rel="shortcut icon" href="./images/favicon.png">
-
     <!-- Google Font -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
 
     <header>
-
         <!-- Logo del sito -->
-
         <img src="./images/logo.webp" alt="Logo del sito" class="logo" width="150px" height="150px" align=center>
-
         <h2 class="logo">Gli Scafazzati di Katy</h2>
-
         <span class="targhetta">
             <b>questo Sito è dedicato a chi segue Katia Brivio</b>
         </span>
-
     </header>
 
+    <!-- Pulsanti -->
     <nav>
-
-        <!-- Pulsanti -->
-
         <ul id="menu">
-
-            <li class="ricarica_pagina"><a href="index.html">Home - ricarica pagina</a></li>
-
+            <li class="ricarica_pagina"><a href="#">Home - ricarica pagina</a></li>
             <li class="twitch"><a href="#twitch">Twitch</a></li>
-
             <li class="YouTube"><a href="#YouTube">YouTube</a></li>
-
             <li class="sticker_telegram"><a href="#sticker">Stickers</a></li>
-
             <li class="ritratti"><a href="#ritratti">Ritratti</a></li>
-
             <li class="social"><a href="#social">Social</a></li>
-
-	    <li class="social"><a href="./login" target="_blank">Login</a></li>
-
+            <li class="social"><a href="./login" target="_blank">Login</a></li>
         </ul>
-
     </nav>
 
    <!-- Home -->
-
    <div class="home">
-
     <h1>benvenuti nel sito web degli Scafazzati di Katia</h1>
-
     <h3>questo sito web e&grave; un regalo per Katia</h3>
-
     <br>
-
     </div>
 
-    <div class="divisorio">
-
-
-
-    </div>
+    <div class="divisorio"></div>
 
     <!-- zona Twitch -->
-
     <div id="twitch">
-
         <h3 id="twitch">se vuoi sapere gli orari delle live su twitch di Katy</h3>
-
         <p id="twitch">sono dal lunedi fino al giovedi dalle 15:00 fino alle 18:00</p>
-
         <iframe class="play" src="https://player.twitch.tv/?channel=katiabrivio&parent=scafazzatidikaty.altervista.org" frameborder="0" allowfullscreen="true" scrolling="no" width="380px" height="380px"></iframe> <!-- live -->
-
         <iframe class="chat" id="chat_embed"src="https://www.twitch.tv/embed/katiabrivio/chat?parent=scafazzatidikaty.altervista.org" width="338px" height="550px"></iframe> <!-- chat -->
 
     </div>
 
-    <div class="divisorio">
-
-
-
-    </div>
+    <div class="divisorio"></div>
 
     <!-- Playlist ultimi 7 video -->
-
     <div class="playlist-yt" id="YouTube">
-
         <p>nuovo video ogni venerdì alle 14:30 sul canale youtube, gli ultimi 7 video li puoi vedere direttamente qui</p>
         <p>se stai cercando un video usa la ricerca che trovi qui</p>
         <form id="frm1"action="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g/search?query=twitch">
             <input type="text" name="query"
             id="query" value="">
-          
-          <input type="submit" value="Ricerca Video">
+            <input type="submit" value="Ricerca Video">
           </form>
-          <script>
-          function myFunction(){
-          var x =document.getElementById("frm1")
-          }
-          </script>
+          <script src="./js/ricercavideo.js"></script>
           <br>
         <iframe id="playlist_link" src="https://www.youtube.com/embed/videoseries?list=PL93SyFcogbBCEeE8-SeFZsZjYZJ_YjcnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </div>
 
-
-
-    <div class="divisorio">
-
-
-
-    </div>
+    <div class="divisorio"></div>
 
     <!-- stickers telegram -->
-
     <div id="sticker">
-
         <p>questi sono solo alcuni degli stickers di Katy</p>
-
         <img src="./images/stickers/buon appetito.webp" alt="katia che pranza" width="150px" height="150px" align=center>
-
         <img src="./images/stickers/katia_e_snoopdog.webp" alt="katia e snoopdog" width="150px" height="150px" align=center>
-
         <img src="./images/stickers/selfie_di_katia.webp" alt="selfie di katia" width="150px" height="150px" align=center>
-
         <img src="./images/stickers/snoopdog.webp" alt="snoopdog" width="150px" height="150px" align=center>
-
         <h4>se vuoi avere anche te questi stickers su Telegram</h4>
-
         <p></p>
-
         <p></p>
-
         <h4>ecco il link per ottenerli</h4>
-
-        <p><a href="https://t.me/addstickers/isticker7bed22d1b0624f10aebaea2ea10d72b8_by_istickeri19_bot" target="_blank">clicca qui</a></p>
-
+        <p><a href="https://t.me/addstickers/isticker7bed22d1b0624f10aebaea2ea10d72b8_by_istickeri19_bot" target="_blank">ottieni ora</a></p>
     </div>
 
-    <div class="divisorio">
+    <div class="divisorio"></div>
 
-
-
-    </div>
-
-    <!-- ritratti fatti da katia in live -->
-
+    <!-- ritratti -->
     <div id="ritratti">
-
         <h4>Ritratti</h4>
-
-        <p>se vuoi avere un ritratto fatto da katia puoi contattarla in direct premendo l'icona di instagram che trovi in fondo alla pagina</p>
-
+        <p>se vuoi avere un ritratto fatto da katia puoi contattarla in direct</p>
+        <p><a href="https://www.instagram.com/katia_brivio_official/" target="_blank" class="contatta">Contatta Katia</a></p>
     </div>
 
-    <div class="divisorio">
-
-
-
-    </div>
+    <div class="divisorio"></div>
 
     <!-- zona Social -->
-
     <div id="social">
-
         <h2>social di Katy</h2>
-
-        <a href="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g" target="_blank"><img src="./images/social/YouTube.png" class="youtube" align='center' alt="youtube" title="youtube"></a>
-
+        <a href="https://www.youtube.com/channel/UCoyTrImegzXghHveowsaI5g" target="_blank"><img src="./images/social/youtube.png" class="youtube" align='center' alt="youtube" title="youtube"></a>
         <a href="https://www.facebook.com/katia.brivio" target="_blank"><img src="./images/social/facebook.png" class="facebook" align='center' alt="facebook" title="facebook"></a>
-
         <a href="https://www.instagram.com/katia_brivio_official/" target="_blank"><img src="./images/social/instagram.png" class="instagram" align='center' alt="instagram" title="instagram"></a>
-
         <a href="https://www.tiktok.com/@katiabrivio" target="_blank"><img src="./images/social/tiktok.png" class="tiktok" align='center' alt="tiktok" title="tiktok"></a>
-
         <a href="https://t.me/+Vk1mSaU3AsRjMmU0" target="_blank"><img src="./images/social/telegram.png" class="telegram" align='center' alt="gruppo telegram" title="gruppo telegram"></a>
-
         <a href="https://www.twitch.tv/katiabrivio" target="_blank"><img src="./images/social/twitch.png" class="Twitch" align='center' alt="twitch" title="twitch"></a>
-        
         <a href="https://www.amazon.it/hz/wishlist/ls/3HGJCQ5NEUYXZ" target="_blank"><img src="./images/social/amazon.png" class="amazon" align='center' alt="lista desideri amazon" title="lista dei desideri di amazon"></a>
-
+        <a href="https://discord.gg/PBFUAynGBf" target="_blank"><img src="./images/social/discord.png" class="discord" align='center' alt="server discord" title="Discord"></a>
     </div>
 
     <!-- schermata finale -->
-
 <div class="copyright">2022 &copy; Gli Scafazzati di Katy. Tutti i diritti riservati.</div>
-
-<div class="author">Realizzato Con ❤️❤️ Da <a href="https://arduinodenis.jimdofree.com" style="text-decoration: none;" target="_blank">Arduino Denis</a></div>
-
+<div class="author">Realizzato Con ❤️❤️ Da <a href="https://arduinodenis.jimdofree.com" style="text-decoration: none; color: #ddff00;" target="_blank" title="visita il sito di Arduino Denis">Arduino Denis</a></div>
 </body>
-
 </html>
