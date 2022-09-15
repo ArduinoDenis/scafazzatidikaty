@@ -156,6 +156,25 @@ nav ul li a{
     padding: 15px;
     color: #ffffff;
 }
+/* setto l'id tattoo */
+#tattoo{
+    text-align: center;
+    background-color:#07a817;
+    padding: 15px;
+}
+/* setto la classe tatuaggi */
+.tatuaggi{
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+}
+/* setto la classe tatuaggi,hover - passaggio del mouse */
+.tatuaggi:hover{
+    text-align: center;
+    background-color: #07a817;
+    padding: 15px;
+    color: #ffffff;
+}
 /* setto la classe author */
 .author{
     text-align: center;
