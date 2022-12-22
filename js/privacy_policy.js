@@ -1,0 +1,2 @@
+var _iub = _iub || [];
+ _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"floatingPreferencesButtonDisplay":"anchored-center-left","invalidateConsentWithoutLog":true,"perPurposeConsent":true,"siteId":2850433,"whitelabel":false,"cookiePolicyId":51316890,"lang":"it", "banner":{ "acceptButtonDisplay":true,"backgroundOverlay":true,"closeButtonRejects":true,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"logo":null,"position":"bottom" }};
